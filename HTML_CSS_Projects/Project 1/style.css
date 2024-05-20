@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "gilroy";
+}
+
+html,body
+{
+    height: 100%;
+    width: 100%;
+}
+
+main
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+#left
+{
+    height: 100%;
+    width: 50%;
+    position: relative;
+}
+
+#left nav
+{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 16%;
+    gap: 3vw;
+}
+
+#left nav img
+{
+    height: 5vh;
+    width: 5vw;
+}
+
+#left nav a
+{
+    text-decoration: none;
+    color: black;
+    font-weight: 580;
+    margin-right: 15px;
+}
+
+#content
+{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -40%);
+}
+
+#content h1
+{
+    font-size: 3vw;
+    margin-bottom: 3vh;
+}
+
+#content p
+{
+    font-size: 1.1vw;
+    margin-bottom: 4vh;
+}
+
+
+#content button
+{
+    padding: 2.5% 4%;
+    background-color: rgb(67, 122, 67);
+    color: white;
+    font-size: 1vw;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+#right
+{
+    height: 100%;
+    width: 50%;
+    position: relative;
+}
+
+#rcontent
+{
+    height: 70%;
+    width: 100%;
+    position: absolute;
+    top: 25%;
+}
+
+#rtop
+{
+    height: 50%;
+    width: 60%;
+    display: flex;
+    margin-bottom: 2%;
+}
+
+#rtop img
+{
+    width: 50%;
+    margin-right: 5%;
+}
+
+#rbottom
+{
+    width: 58%;
+    height: 45%;
+    background-image: url("/HTML_CSS_Projects/Project 1/images/img3.png");
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
